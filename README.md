@@ -142,9 +142,6 @@ black-dashboard-angular
 │   │       ├── notifications
 │   │       │   ├── notifications.component.html
 │   │       │   └── notifications.component.ts
-│   │       ├── rtl
-│   │       │   ├── rtl.component.html
-│   │       │   └── rtl.component.ts
 │   │       ├── tables
 │   │       │   ├── tables.component.html
 │   │       │   └── tables.component.ts

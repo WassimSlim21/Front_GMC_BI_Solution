@@ -1,7 +1,7 @@
 {
-  "name": "black-dashboard-angular",
+  "name": "Gomycode BI Solution Front",
   "version": "1.2.0",
-  "description": "Black Dasboard Angular, a Creative Tim Desgin. Coded by Creative Tim",
+  "description": "GMC business intelligence solution frontend",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -53,7 +53,7 @@
     " free admin dashboard",
     "free bootstrap 4 admin dashboard"
   ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "author": "wassim slim <wassimslim18@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/creativetimofficial/black-dashboard-angular/issues"
@@ -75,6 +75,7 @@
     "core-js": "3.15.2",
     "ngx-toastr": "14.0.0",
     "rxjs": "7.2.0",
+    "socket.io-client": "^4.5.3",
     "tslib": "2.3.0",
     "zone.js": "0.11.4"
   },

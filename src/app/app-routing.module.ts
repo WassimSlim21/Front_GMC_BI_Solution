@@ -7,6 +7,9 @@ import { AdminLayoutComponent } from "./layouts/admin-layout/admin-layout.compon
 import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component';
 
 const routes: Routes = [
+
+
+
   {
     path: "",
     redirectTo: "dashboard",
@@ -31,8 +34,15 @@ const routes: Routes = [
       }
     ]
   },
-  { path: 'deals', loadChildren: () => import('./pages/deals/deals.module').then(m => m.DealsModule) },
-  { path: 'deals_owners', loadChildren: () => import('./pages/deals-owners/deals-owners.module').then(m => m.DealsOwnersModule) },
+
+
+
+  { path: 'login', loadChildren: () => import('./auth/login/login.module').then(m => m.LoginModule) },
+
+
+
+  { path: 'register', loadChildren: () => import('./auth/register/register.module').then(m => m.RegisterModule) },
+
   {
     path: "**",
     redirectTo: "dashboard"
