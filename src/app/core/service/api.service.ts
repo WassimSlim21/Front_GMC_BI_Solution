@@ -19,7 +19,7 @@ export class ApiService {
 
 
 
-  user: Account;
+  user: any;
   users: any;
   jwtToken = null;
 

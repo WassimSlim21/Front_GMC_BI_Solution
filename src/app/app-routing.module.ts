@@ -39,23 +39,17 @@ const routes: Routes = [
 
   { path: 'login', loadChildren: () => import('./auth/login/login.module').then(m => m.LoginModule) },
 
+  { path: 'home', loadChildren: () => import('./auth/home/home.module').then(m => m.HomeModule) },
 
 
-  { path: 'register', loadChildren: () => import('./auth/register/register.module').then(m => m.RegisterModule) },
-
-  {
-    path: "**",
-    redirectTo: "dashboard"
-  }
+  { path: 'register', loadChildren: () => import('./auth/register/register.module').then(m => m.RegisterModule) }
 ];
 
 @NgModule({
   imports: [
     CommonModule,
     BrowserModule,
-    RouterModule.forRoot(routes, {
-      useHash: true
-    })
+    RouterModule.forRoot(routes)
   ],
   exports: [RouterModule]
 })
